@@ -50,10 +50,12 @@ input[type = submit] {
     padding: 10px;
 }
 
-input[type = submit]#entrar {
+
+div#entrar, input#entrar {
     background-color: #4bb1ad;
     color: #ffffff;
     text-shadow: 1px 1px 1px black;
+    border-radius: 7px;
 }
 
 input#iemail, input#ipassword {
