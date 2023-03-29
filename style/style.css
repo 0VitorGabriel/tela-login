@@ -21,7 +21,7 @@ main {
 
     transform: translate(-50%, 110%);
 
-    width: 300px;
+    width: 220px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -37,4 +37,14 @@ main > section#formulario > p {
 
 input {
     margin-bottom: 10px;
+}
+
+input[type = submit] {
+    width: 220px;
+    padding: 7px;
+    display: block;
+    margin: 5px auto;
+
+    background-color: #53aaa7;
+    border: none;
 }
