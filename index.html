@@ -21,20 +21,26 @@
                 Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
             </p>    
             <form action="cad.php">
-                <label for="iemail">
-                    <span class="material-symbols-outlined">
-                    person
-                    </span>
-                </label>
-                
-                <input type="email" name="email" id="iemail"> <br>
+                <div id="email">
+                    <label for="iemail">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                    </label>
+                    
+                    <input type="email" name="email" id="iemail" placeholder="seu email"> 
+                </div>
 
-                <label for="ipassword">
-                    <span class="material-symbols-outlined">
-                        vpn_key
-                    </span>
-                </label>
-                <input type="password" name="password" id="ipassword"> <br>
+                <div id="password">
+                    <p>
+                        <label for="ipassword">
+                            <span class="material-symbols-outlined">
+                                vpn_key
+                            </span>
+                        </label>
+                        <input type="password" name="password" id="ipassword" placeholder="sua senha"> 
+                    </p>
+                </div>
 
                 <input type="submit" value="Entrar" id="entrar"> 
 

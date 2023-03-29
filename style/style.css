@@ -22,7 +22,7 @@ main {
     transform: translate(-50%, 50%);
 
     width: 220px;
-    max-height: 300px;
+    height: 310px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -58,10 +58,24 @@ input[type = submit]#esquecer_senha {
     background-color: white
 }
 
+input#iemail, input#ipassword {
+    padding: 10px 4px;
+    border-radius: 10px;
+    background-color: #94CFCD;
+    margin: 2px 0px 3px 10px;
+}
+
+div#email, div#password {
+    background-color: #5F2C82;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
 .material-symbols-outlined {
+  color: white;
   font-variation-settings:
   'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
+  'wght' 700,
+  'GRAD' -25,
   'opsz' 48
 }
