@@ -51,11 +51,9 @@ input[type = submit] {
 }
 
 input[type = submit]#entrar {
-    background-color: #55cac6;
-}
-
-input[type = submit]#esquecer_senha {
-    background-color: white
+    background-color: #4bb1ad;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
 }
 
 input#iemail, input#ipassword {
@@ -78,4 +76,8 @@ div#email, div#password {
   'wght' 700,
   'GRAD' -25,
   'opsz' 48
+}
+
+#icon_email {
+    color: rgba(0, 0, 0, 0.705);
 }
