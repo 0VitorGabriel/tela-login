@@ -26,6 +26,15 @@ main {
     border-radius: 10px;
 }
 
+main > section#formulario > h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+main > section#formulario > p {
+    font-size: smaller;
+}
+
 input {
     margin-bottom: 10px;
 }
