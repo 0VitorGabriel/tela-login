@@ -17,29 +17,31 @@ main {
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, 9%);
 }
 
 main > section#formulario {
     background-color: white;
 
-    width: 220px;
-    height: 310px;
+    width: 230px;
+    height: 310px; 
     padding: 10px;
     
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 6px 3px #00000096;
 }
 
 main > section#imagem {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    width: 240px;
+    width: 250px;
     height: 200px;
 
     background: #000000 url(../img/imagem-login.jpg) no-repeat left bottom;
     background-size: cover;
+    box-shadow: 1px 1px 6px 3px #00000091;
 }
 
 main > section#formulario > h2 {
@@ -56,7 +58,7 @@ main > section#formulario > form > div#entrar > input[type = submit] {
     padding: 7px;
     display: block;
     margin: 5px auto;
-    border: 1px solid rgb(107, 255, 255);
+    border: 1px solid #6bffff;
     border-radius: 7px;
     padding: 10px;
 }
@@ -73,7 +75,7 @@ main > section#formulario > form > div > input#iemail, input#ipassword {
     border-radius: 7px;
     border: none;
     background-color: #94CFCD;
-    margin: 2px 0px 3px 10px;
+    margin: 4px 0px 3px 20px;
 }
 
 main > section#formulario > form > div#email, div#password {
@@ -94,7 +96,7 @@ main > section#formulario > form > div#esqueci_senha > a {
 }
 
 #icon_email {
-    color: rgba(0, 0, 0, 0.705);
+    color: #000000b4;
 }
 
 .material-symbols-outlined {
