@@ -12,19 +12,34 @@ html, body {
 }
 
 main {
-    background-color: white;
-
     position: absolute;
 
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 10%);
+}
 
+main > section#formulario {
+    background-color: white;
     width: 220px;
     height: 310px;
     padding: 10px;
-    border-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+main > section#imagem {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    width: 240px;
+    height: 200px;
+
+    background-image: url(../img/imagem-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
 }
 
 main > section#formulario > h2 {
@@ -69,6 +84,17 @@ div#email, div#password {
     background-color: #5F2C82;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+div#esqueci_senha {
+    border-radius: 7px;
+    border: 1px solid #4bb1ad;
+    padding: 7px;
+    text-align: center;
+}
+
+div#esqueci_senha a {
+    text-decoration: none;
 }
 
 .material-symbols-outlined {
