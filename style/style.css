@@ -17,14 +17,14 @@ main {
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, 9%);
+    transform: translate(-50%, 7%);
 }
 
 main > section#formulario {
     background-color: white;
 
     width: 230px;
-    height: 310px; 
+    height: 330px; 
     padding: 10px;
     
     border-bottom-left-radius: 20px;
@@ -71,11 +71,12 @@ main > section#formulario > form > div#entrar, input#entrar {
 }
 
 main > section#formulario > form > div > input#iemail, input#ipassword {
-    padding: 10px 4px;
+    background-color: #94CFCD;
+    height: 33px;
     border-radius: 7px;
     border: none;
-    background-color: #94CFCD;
-    margin: 4px 0px 3px 20px;
+    padding: 3px;
+    transform: translate(-3px, -5px);
 }
 
 main > section#formulario > form > div#email, div#password {
@@ -93,6 +94,15 @@ main > section#formulario > form > div#esqueci_senha {
 
 main > section#formulario > form > div#esqueci_senha > a {
     text-decoration: none;
+}
+
+main > section#formulario > form > div > label > #icon_input_email, #icon_input_password {
+    color: White;
+    font-size: 2em;
+    padding: 3px;
+    width: 40px;
+    padding: 5px;
+    transform: translate(3px, 3px);
 }
 
 #icon_email {
