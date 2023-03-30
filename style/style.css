@@ -32,18 +32,6 @@ main > section#formulario {
     box-shadow: 1px 1px 6px 3px #00000096;
 }
 
-main > section#imagem {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-    width: 250px;
-    height: 200px;
-
-    background: #000000 url(../img/imagem-login.jpg) no-repeat left bottom;
-    background-size: cover;
-    box-shadow: 1px 1px 6px 3px #00000091;
-}
-
 main > section#formulario > h2 {
     text-align: center;
     padding: 10px;
@@ -103,6 +91,18 @@ main > section#formulario > form > div > label > #icon_input_email, #icon_input_
     width: 40px;
     padding: 5px;
     transform: translate(3px, 3px);
+}
+
+main > section#imagem {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    width: 250px;
+    height: 200px;
+
+    background: #000000 url(../img/imagem-login.jpg) no-repeat left bottom;
+    background-size: cover;
+    box-shadow: 1px 1px 6px 3px #00000091;
 }
 
 #icon_email {
