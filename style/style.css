@@ -64,7 +64,7 @@ main > section#formulario > form > div > input#iemail, input#ipassword {
     border-radius: 7px;
     border: none;
     padding: 3px;
-    transform: translate(37px, -30px);
+    transform: translate(37px, -33px);
 }
 
 main > section#formulario > form > div#email, div#password {
@@ -90,8 +90,7 @@ main > section#formulario > form > div > label > #icon_input_email, #icon_input_
     font-size: 2em;
     padding: 3px;
     width: 40px;
-    padding: 5px;
-    transform: translate(3px, 3px);
+    transform: translateY(5px);
 }
 
 main > section#imagem {
@@ -118,7 +117,3 @@ main > section#imagem {
   'GRAD' -25,
   'opsz' 48
 }
-
-/* height: 50px;
-    transform: translate(37px, -30px);
-    border: none;*/
