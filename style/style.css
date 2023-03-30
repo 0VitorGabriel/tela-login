@@ -17,7 +17,7 @@ main {
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, 9%);
 }
 
 main > section#formulario {
@@ -56,6 +56,8 @@ main > section#formulario > form > div#entrar, input#entrar {
     background-color: #4bb1ad;
     color: #ffffff;
     border-radius: 5px;
+    height: 40px;
+    margin-bottom: 5px;
 }
 
 main > section#formulario > form > div > input#iemail, input#ipassword {
