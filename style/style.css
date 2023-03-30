@@ -23,8 +23,8 @@ main {
 main > section#formulario {
     background-color: white;
 
-    width: 230px;
-    height: 330px; 
+    max-width: 230px;
+    max-height: 330px; 
     padding: 10px;
     
     border-bottom-left-radius: 20px;

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 600px){
+    section#imagem {
+        transition: 0.5s;
+        transform: translate(-53%, 80%);
+        min-height: 300px;
+    }
+
+    section#formulario {
+        transition: 0.5s;
+        transform: translate(30%, -20%);
+        min-width: 340px;
+    }
+
+    input {
+        width: 42vw;
+    }
+
+    div#email, div#password {
+        width: 345px;
+    }
+}
