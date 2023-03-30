@@ -46,7 +46,7 @@ main > section#formulario > form > div#entrar > input[type = submit] {
     padding: 7px;
     display: block;
     margin: 5px auto;
-    border: 1px solid #6bffff;
+    border: none;
     border-radius: 7px;
     padding: 10px;
 }
@@ -64,13 +64,14 @@ main > section#formulario > form > div > input#iemail, input#ipassword {
     border-radius: 7px;
     border: none;
     padding: 3px;
-    transform: translate(-3px, -5px);
+    transform: translate(37px, -30px);
 }
 
 main > section#formulario > form > div#email, div#password {
     background-color: #5F2C82;
     border-radius: 5px;
     margin-top: 5px;
+    height: 50px;
 }
 
 main > section#formulario > form > div#esqueci_senha {
@@ -117,3 +118,7 @@ main > section#imagem {
   'GRAD' -25,
   'opsz' 48
 }
+
+/* height: 50px;
+    transform: translate(37px, -30px);
+    border: none;*/
