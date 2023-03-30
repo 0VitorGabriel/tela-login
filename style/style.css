@@ -81,10 +81,12 @@ main > section#formulario > form > div#esqueci_senha {
     border: 1px solid #4bb1ad;
     padding: 7px;
     text-align: center;
+    height: 25px;
 }
 
 main > section#formulario > form > div#esqueci_senha > a {
     text-decoration: none;
+    color: #000000;
 }
 
 main > section#formulario > form > div > label > #icon_input_email, #icon_input_password {
@@ -109,6 +111,7 @@ main > section#imagem {
 
 #icon_email {
     color: #000000b4;
+    font-size: 1em;
 }
 
 .material-symbols-outlined {
