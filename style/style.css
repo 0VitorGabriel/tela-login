@@ -1,1 +1,50 @@
 @charset "UTF-8";
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #5F2F82;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+section#login {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: #ffffff;
+
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #00000073;
+}
+
+section#login > div#imagem {
+    background: #5F2F82 url(../img/imagem-login.jpg) no-repeat left bottom;
+    background-size: cover;
+
+    height: 200px;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+}
